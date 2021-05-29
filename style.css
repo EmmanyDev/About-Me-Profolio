@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* home.html */
+#home {
+    margin: 0;
+    padding: 0;
+    /* Option 1 */
+    background: linear-gradient(to right, #660066 0%, #ff6600 100%);
+
+    /* Option 2 */
+    /* background: linear-gradient(to top left, #0099ff 0%, #ff5050 100%); */
+}
+
+/* Navbar */
+.navbar {
+    /* border: 1px solid black; */
+    height: 60px;
+}
+
+.navbar a {
+    margin: 0;
+    /* border: 1px solid black; */
+    /* padding: 21px 333px; */
+    padding: 1.4% 20.5%;
+    width: 9%;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: #f2f2f2;
+    background-color: black;
+    opacity: 0.5;
+    /* background-color: #000000; */
+    transition: 0.3s;
+    float: left;
+    position: relative;
+    top: 0px;
+}
+
+.navbar a:hover {
+    color: #f2f2f2;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+
+/* content */
+.content {
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px 50px;
+}
+
+/* Heading */
+.heading {
+    /* border: 1px solid black; */
+    padding: 40px;
+}
+
+h1 {
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.75);
+    /* width: 40%; */
+    width: 500px;
+    min-width: 30%;
+    font-size: 100px;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    margin: auto;
+    padding: 45px;
+
+    /* Option 1 */
+    background: linear-gradient(to right, #660066 0%, #ff6600 100%);
+
+    /* Option 2 */
+    /* background: linear-gradient(to top left, #0099ff 0%, #ff5050 100%); */
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+h1:hover {
+    color: #ff6600;
+    background: #f4f4f4;
+    transition: 0.3s;
+}
+
+h1:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+/* Button hub */
+.hub {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* .hub h3 {
+    border: 1px solid black;
+    width: 20%;
+    font-size: 35px;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #8c8c8c;
+    color: #ffffff;
+} */
+
+.hub .buttons {
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    margin: 30px 30px;
+}
+
+.hub .buttons a {
+    border: none;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    padding: 20px 35px;
+    /* margin: 0 50px; */
+    margin: 0 5%;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#github {
+    color: #ffffff;
+    background-color: #211f1f;
+}
+#github:hover {
+    color: #211f1f;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+#linkedin {
+    color: #ffffff;
+    background-color: #0077b5;
+}
+#linkedin:hover {
+    color: #0077b5;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+#instagram {
+    color: #ffffff;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+#instagram:hover {
+    background: #ffffff;
+    color: #c13584;
+    transition: 0.3s;
+}
+
+/* Footer */
+.footer {
+    border: 1px solid black;
+    position: relative;
+    bottom: -45px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 17px;
+    background: linear-gradient(to left, #993300 0%, #660066 100%);
+}
+
+span {
+    font-size: 25px;
+}
+
+
+/* *************************************************************************************************** */
+
+
+/* about.html */
+#about {
+    margin: 0;
+    padding: 0;
+    /* Option 1 */
+    background: linear-gradient(to right, #660066 0%, #ff6600 100%);
+
+    /* Option 2 */
+    /* background: linear-gradient(to top left, #0099ff 0%, #ff5050 100%); */
+}
