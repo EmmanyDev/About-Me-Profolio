@@ -85,11 +85,13 @@ h1 {
     /* Option 2 */
     /* background: linear-gradient(to top left, #0099ff 0%, #ff5050 100%); */
     color: #f3f3f3;
-    cursor: pointer;
-    transition: 0.3s;
+
+    /* hover and active effects */
+    /* cursor: pointer; */
+    /* transition: 0.3s; */
 }
 
-h1:hover {
+/* h1:hover {
     color: #ff6600;
     background: #f4f4f4;
     transition: 0.3s;
@@ -100,7 +102,7 @@ h1:active {
     top: 2px;
     box-shadow: none;
     transition: 0.3s;
-}
+} */
 
 /* Button hub */
 .hub {
@@ -174,7 +176,7 @@ h1:active {
 }
 
 /* Footer */
-.footer {
+.home-footer {
     border: 1px solid black;
     position: relative;
     bottom: -45px;
@@ -197,9 +199,191 @@ span {
 #about {
     margin: 0;
     padding: 0;
+    font-family: 'Source Code Pro', monospace;
     /* Option 1 */
-    background: linear-gradient(to right, #660066 0%, #ff6600 100%);
+    /* background: linear-gradient(to right, #660066 0%, #ff6600 100%); */
 
     /* Option 2 */
-    /* background: linear-gradient(to top left, #0099ff 0%, #ff5050 100%); */
+    background: linear-gradient(to top left, #0099ff 0%, #ff5050 100%);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+
+    /* Option 3 */
+    /* background: linear-gradient(to right, #66ffff 0%, #ff5050 100%); */
+}
+
+/* Container */
+.about-content {
+    /* border: 1px solid black; */
+    padding: 30px;
+}
+
+/* About me title */
+h2 {
+    /* border: 1px solid black; */
+    color: #f2f2f2;
+    width: 20%;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+/* "Who am I" container */
+.whoami {
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    margin: 30px auto;
+    background-color: #333333;
+    color: #f2f2f2;
+    width: 80%;
+    box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.whoami h3 {
+    /* border: 1px solid black; */
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Any block of p text */
+.text {
+    /* border: 1px solid black; */
+}
+
+/* "Who am I" p text */
+.text.intro {
+    padding: 20px 30px;
+    margin: 10px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+
+/* Picture */
+.whoami img {
+    float: left;
+    padding: 30px;
+    margin: 5px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+/* Tech skills container */
+.tech-skills {
+    /* border: 1px solid black; */
+    margin: 40px auto;
+    padding: 30px;
+    /* width: 50%; */
+    background-color: #333333;
+    color: #f2f2f2;
+    width: 80%;
+    box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.tech-skills h3 {
+    /* border: 1px solid black; */
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+}
+
+.text.skills {
+    padding: 10px 30px;
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.career {
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: #333333;
+    color: #f2f2f2;
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.career h3 {
+    /* border: 1px solid black; */
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px auto;
+}
+
+.text.path {
+    padding: 20px;
+    line-height: 30px;
+}
+
+/* Buttons leading to projects I've worked on */
+.projects {
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.projects a {
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin: 20px 5%;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    left: 13%;
+    width: 10%;
+}
+
+#khanacademy {
+    color: #f2f2f2;
+    background-color: #00cc7a;
+    transition: 0.3s;
+}
+#khanacademy:hover {
+    color: #00cc7a;
+    background-color: #f2f2f2;
+    transition: 0.3s;
+}
+
+#ccwebsite {
+    /* background: linear-gradient(to top left, #109647 0%, #20285c 100%); */
+    background-color: #20285c;
+    color: #f2f2f2;
+    transition: 0.3s;
+}
+#ccwebsite:hover {
+    color: #109647;
+    background: #f2f2f2;
+    transition: 0.3s;
+}
+
+.about-footer {
+    border: 1px solid black;
+    position: relative;
+    bottom: -1px;
+    text-align: center;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-weight: bold;
+    font-size: 17px;
+    /* background: linear-gradient(to left, #993300 0%, #660066 100%); */
+    /* background: linear-gradient(to top left, #00ccff 0%, #990033 100%); */
+    /* background: linear-gradient(to left, #006699 0%, #993366 100%); */
+    background: linear-gradient(to left, #006699 0%, #cc6699 100%);
+    background-repeat: no-repeat;
 }
